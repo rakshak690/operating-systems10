@@ -131,3 +131,40 @@ int main() {
 
   return 0;
 }
+
+/*output:
+//Enter the total number of Processes: 4
+
+//Please Enter the  Burst Time and Priority of each process:
+
+//Enter the details of the process A 
+//Enter the burst time: 5
+//Enter the priority: 10
+
+/*Enter the details of the process B 
+Enter the burst time: 4
+Enter the priority: 20
+
+Enter the details of the process C 
+Enter the burst time: 2
+Enter the priority: 30
+
+Enter the details of the process D 
+Enter the burst time: 1
+Enter the priority: 40
+
+
+Process_name     Burst Time      Waiting Time     Turnaround Time
+------------------------------------------------------------
+          D               1              0               1
+-----------------------------------------------------------
+          C               2              1               3
+-----------------------------------------------------------
+          B               4              3               7
+-----------------------------------------------------------
+          A               5              7               12
+-----------------------------------------------------------
+
+
+ Average Waiting Time : 2.750000
+ Average Turnaround Time: 5.750000*/
